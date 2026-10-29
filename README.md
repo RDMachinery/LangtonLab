@@ -4,7 +4,7 @@
 
 Langton Lab is a small desktop program that lets you turn a single dial and watch a simple world move from death, through frozen order, into a narrow band where complex, life-like structures appear, and finally into boiling chaos. It recreates the experiment behind one of the most famous ideas in the science of complexity: Chris Langton's **"edge of chaos"**.
 
-![Langton Lab in action](images/screenshot.png)
+![Langton Lab in action](screenshot.png)
 
 ---
 
@@ -39,7 +39,7 @@ A rule book has 1,024 entries, one for every possible pattern of five neighbouri
 
 As you slide λ upward, the lab switches rules on one at a time in a fixed order (Langton called this the *table walk-through*). So you are not jumping between unrelated worlds; you are gradually changing a single world and watching how its character changes.
 
-![The four regimes, all from the same rule family: frozen, dying out, complex, chaotic](images/regimes.png)
+![The four regimes, all from the same rule family: frozen, dying out, complex, chaotic](regimes.png)
 
 The picture above shows the same rule family at four settings of λ:
 
@@ -98,7 +98,7 @@ You need **Java** (version 11 or newer). It's free.
 3. **Find the edge by hand.** Drag λ down to about 0.10, then creep it upward. Watch for the moment the world stops dying and starts to live.
 4. **Explore other families.** Every family has its own edge, at its own value of λ. Here are some favourites to type into the **Rule family #** box:
 
-![A gallery of complex rules from different families](images/gallery.png)
+![A gallery of complex rules from different families](gallery.png)
 
 | Family | λ | What you'll see |
 |---|---|---|
@@ -121,7 +121,7 @@ Langton didn't just look at pictures. He wanted to *measure* the edge. He used t
 
 Press **Sweep λ** and the lab runs Langton's experiment. It takes eight different rule families, walks each one from λ = 0 to λ = 0.75, and measures H and MI at every step. The results appear as white dots on the two graphs. An **orange ring** marks the world you're currently running.
 
-![Langton's two graphs, reproduced by the lab](images/graphs.png)
+![Langton's two graphs, reproduced by the lab](graphs.png)
 
 **Top graph: variety against λ.** At low λ the dots sit on the floor: dead worlds. At high λ they crowd the ceiling: chaos. In between is a wide, scattered band where the worlds are neither dead nor random. Langton called this the **transition region**, and it is where the complex rules live.
 
